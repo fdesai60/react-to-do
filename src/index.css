@@ -1,0 +1,9 @@
+
+
+.eachTask{
+  display: flex;
+}
+
+.complete{
+  color:rgb(145, 154, 155)
+}
