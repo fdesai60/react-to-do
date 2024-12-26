@@ -1,9 +1,25 @@
 
+li{
+  list-style-type: none
+}
+
 
 .eachTask{
   display: flex;
+  
+
 }
+
+.eachTask p{
+  flex:1
+}
+
 
 .complete{
   color:rgb(145, 154, 155)
+}
+
+button{
+  min-width: 4em;
+  
 }
