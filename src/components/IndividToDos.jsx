@@ -4,6 +4,7 @@ const IndividToDos = ({todo,setToDoList}) => {
     const [isComplete,setIsComplete]=useState(false)
     const toggleCompleted=()=>{
         setIsComplete(curr=>!curr)
+      
     }
 
     const handleDel=()=>{

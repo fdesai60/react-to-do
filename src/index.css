@@ -23,3 +23,7 @@ button{
   min-width: 4em;
   
 }
+
+.eachTask .checker {
+  color: red;
+}

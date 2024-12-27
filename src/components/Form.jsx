@@ -16,6 +16,7 @@ const Form = ({setToDoList}) => {
     }
   
     return (  
+        <>
     <form onSubmit={handleSubmit}>
             <label htmlFor="addTask">Add task
             <input type="text" 
@@ -27,6 +28,10 @@ const Form = ({setToDoList}) => {
         </label>
         <button>Add</button>
     </form>
+
+    
+    </>
+    
     );
 }
  
